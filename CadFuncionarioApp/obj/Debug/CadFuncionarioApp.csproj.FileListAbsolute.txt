@@ -1,0 +1,17 @@
+C:\Users\Gleydson\Documents\Visual Studio 2019\Projetos\CadFuncionarioApp\CadFuncionarioApp\bin\Debug\CadFuncionarioApp.exe.config
+C:\Users\Gleydson\Documents\Visual Studio 2019\Projetos\CadFuncionarioApp\CadFuncionarioApp\bin\Debug\CadFuncionarioApp.exe
+C:\Users\Gleydson\Documents\Visual Studio 2019\Projetos\CadFuncionarioApp\CadFuncionarioApp\bin\Debug\CadFuncionarioApp.pdb
+C:\Users\Gleydson\Documents\Visual Studio 2019\Projetos\CadFuncionarioApp\CadFuncionarioApp\bin\Debug\EntityFramework.dll
+C:\Users\Gleydson\Documents\Visual Studio 2019\Projetos\CadFuncionarioApp\CadFuncionarioApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Gleydson\Documents\Visual Studio 2019\Projetos\CadFuncionarioApp\CadFuncionarioApp\bin\Debug\EntityFramework.xml
+C:\Users\Gleydson\Documents\Visual Studio 2019\Projetos\CadFuncionarioApp\CadFuncionarioApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Gleydson\Documents\Visual Studio 2019\Projetos\CadFuncionarioApp\CadFuncionarioApp\obj\Debug\CadFuncionarioApp.csprojAssemblyReference.cache
+C:\Users\Gleydson\Documents\Visual Studio 2019\Projetos\CadFuncionarioApp\CadFuncionarioApp\obj\Debug\CadFuncionarioApp.TelaInicialForm.resources
+C:\Users\Gleydson\Documents\Visual Studio 2019\Projetos\CadFuncionarioApp\CadFuncionarioApp\obj\Debug\CadFuncionarioApp.Properties.Resources.resources
+C:\Users\Gleydson\Documents\Visual Studio 2019\Projetos\CadFuncionarioApp\CadFuncionarioApp\obj\Debug\CadFuncionarioApp.csproj.GenerateResource.cache
+C:\Users\Gleydson\Documents\Visual Studio 2019\Projetos\CadFuncionarioApp\CadFuncionarioApp\obj\Debug\CadFuncionarioApp.csproj.CoreCompileInputs.cache
+C:\Users\Gleydson\Documents\Visual Studio 2019\Projetos\CadFuncionarioApp\CadFuncionarioApp\obj\Debug\CadFuncionarioApp.csproj.CopyComplete
+C:\Users\Gleydson\Documents\Visual Studio 2019\Projetos\CadFuncionarioApp\CadFuncionarioApp\obj\Debug\CadFuncionarioApp.exe
+C:\Users\Gleydson\Documents\Visual Studio 2019\Projetos\CadFuncionarioApp\CadFuncionarioApp\obj\Debug\CadFuncionarioApp.pdb
+C:\Users\Gleydson\Documents\Visual Studio 2019\Projetos\CadFuncionarioApp\CadFuncionarioApp\obj\Debug\CadFuncionarioApp.CadastroFucForm.resources
+C:\Users\Gleydson\Documents\Visual Studio 2019\Projetos\CadFuncionarioApp\CadFuncionarioApp\obj\Debug\CadFuncionarioApp.AtualizarForm.resources

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="EMPRESAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="FUNCIONARIO">
+          <Key>
+            <PropertyRef Name="RA" />
+          </Key>
+          <Property Name="RA" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NOME" Type="varchar" MaxLength="70" />
+          <Property Name="DATANASCIMENTO" Type="date" />
+          <Property Name="SEXO" Type="char" MaxLength="1" />
+          <Property Name="TELEFONE" Type="varchar" MaxLength="20" />
+          <Property Name="FILHOS" Type="int" />
+          <Property Name="SALARIO" Type="money" />
+          <Property Name="CARGO" Type="varchar" MaxLength="40" />
+          <Property Name="CEP" Type="varchar" MaxLength="9" />
+          <Property Name="ENDERECO" Type="varchar" MaxLength="80" />
+          <Property Name="BAIRRO" Type="varchar" MaxLength="70" />
+          <Property Name="CIDADE" Type="varchar" MaxLength="70" />
+          <Property Name="UF" Type="varchar" MaxLength="2" />
+          <Property Name="NUMERO" Type="int" />
+        </EntityType>
+        <EntityContainer Name="EMPRESAModelStoreContainer">
+          <EntitySet Name="FUNCIONARIO" EntityType="Self.FUNCIONARIO" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="EMPRESAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="FUNCIONARIO">
+          <Key>
+            <PropertyRef Name="RA" />
+          </Key>
+          <Property Name="RA" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NOME" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+          <Property Name="DATANASCIMENTO" Type="DateTime" Precision="0" />
+          <Property Name="SEXO" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="TELEFONE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="FILHOS" Type="Int32" />
+          <Property Name="SALARIO" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="CARGO" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="CEP" Type="String" MaxLength="9" FixedLength="false" Unicode="false" />
+          <Property Name="ENDERECO" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+          <Property Name="BAIRRO" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+          <Property Name="CIDADE" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+          <Property Name="UF" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="NUMERO" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="EMPRESAEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="FUNCIONARIOs" EntityType="Self.FUNCIONARIO" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="EMPRESAModelStoreContainer" CdmEntityContainer="EMPRESAEntities1">
+          <EntitySetMapping Name="FUNCIONARIOs">
+            <EntityTypeMapping TypeName="EMPRESAModel.FUNCIONARIO">
+              <MappingFragment StoreEntitySet="FUNCIONARIO">
+                <ScalarProperty Name="RA" ColumnName="RA" />
+                <ScalarProperty Name="NOME" ColumnName="NOME" />
+                <ScalarProperty Name="DATANASCIMENTO" ColumnName="DATANASCIMENTO" />
+                <ScalarProperty Name="SEXO" ColumnName="SEXO" />
+                <ScalarProperty Name="TELEFONE" ColumnName="TELEFONE" />
+                <ScalarProperty Name="FILHOS" ColumnName="FILHOS" />
+                <ScalarProperty Name="SALARIO" ColumnName="SALARIO" />
+                <ScalarProperty Name="CARGO" ColumnName="CARGO" />
+                <ScalarProperty Name="CEP" ColumnName="CEP" />
+                <ScalarProperty Name="ENDERECO" ColumnName="ENDERECO" />
+                <ScalarProperty Name="BAIRRO" ColumnName="BAIRRO" />
+                <ScalarProperty Name="CIDADE" ColumnName="CIDADE" />
+                <ScalarProperty Name="UF" ColumnName="UF" />
+                <ScalarProperty Name="NUMERO" ColumnName="NUMERO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
